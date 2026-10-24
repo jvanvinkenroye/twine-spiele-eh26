@@ -1,0 +1,138 @@
+:: StoryTitle
+John und die Papiere
+
+:: StoryData
+{
+  "ifid": "7AE3E62E-6DBF-4565-B21B-77614203524D",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1.0
+}
+
+:: Start {"position": "550,300", "size": "100,100"}
+Du bist John ein einfacher Bänker. Eines Schönen Herbstnachmittags,liefst du mit wichtigen Papieren unter deinem arm, durch die Straßen von Hamburg.
+Plötzlich stolperst du über einen unebenen Stein. Deine papiere fallen dir aus der Hand, werden von einem Kräftigen Windstoß erfasst und fliegen in alle Himmelsrichtungen.
+
+
+
+* Nach [[Rechts]] Papiere verfolgen
+
+* Nach [[links]] Papiere verfolgen
+
+* [[Stehen bleiben]] die Papiere sind nicht wichtig genug
+
+
+:: Stehen bleiben {"position": "550,425", "size": "100,100"}
+Du bleibst stehen und Schaust den Papieren dabei zu wie sie Davon fliegen. Du gehst nach Hause. Am Nächsten morgen fragt deine Chefin bei der Arbeit wo denn die Wichtigen Dokumente sind die du mitbringen solltest. Du erzählst ihr die Geschichte und sie feuert dich auf der Stelle.
+
+[[Mission Failed->Start]]
+
+
+:: Rechts {"position": "675,425", "size": "100,100"}
+In binnen von Sekunden entscheidest du dich. Du rennst nach Rechts. Hoch oben siehst du deine Papiere zur anderen Straßenseite Fliegen. 
+
+* In beide Richtungen [[gucken]] dann die Straße überqueren
+
+* Einfach [[auf die Straße stürtzen]] um die Papiere zu fangen
+
+
+:: links {"position": "425,425", "size": "100,100"}
+Du läufst schnell nach liks und siehst in der ferne Papiere in der luft fliegen. Plötzlich wirst du von einem kleinen Hund angefallen, er bällt und versucht dich zu beißen.
+
+* Hund [[wegtreten]]
+
+* dem Hund ein [[Leckerli geben]]
+
+
+:: gucken {"position": "675,550", "size": "100,100"}
+Bevor du über die Straße rennst guckst du einmal in beide Richtungen. Du lässt ein fahrendes Auto vorbei fahren und überquerst die Straße.
+Deine Papiere liegen auf dem Boden du sammelst sie auf und läufst [[zurück->links]]über die Straße in die andere Richtung um deine anderen Papiere zu finden.
+
+
+:: auf die Straße stürtzen {"position": "800,550", "size": "100,100"}
+Du stürtzt auf die Straßen und wirst von einem Auto erfast.
+Hättest du mal lieber Geuckt wie du es im Kindergarten gelernt hast.
+
+[[Mission Failed ->Start]].
+
+
+:: wegtreten {"position": "425,550", "size": "100,100"}
+Der Hund droht dich zu beißen du denkst nicht lange nach und mit einem geziehlten tritt fliegt der Hund einige Meter über den Gehweg. Der Hundebesitzer ist außersich vor Wut und Droht die Polizei zu rufen.
+
+* [[Wegrennen]] bevor er die Polizei rufen kann
+
+* Mit dem Besitzer [[Diskutieren]]
+
+
+:: Leckerli geben {"position": "550,550", "size": "100,100"}
+Zufällig hast du noch ein Leckerli in der Tasche. Du fragst den Hundebesitzer ob du das Leckerlie dem Hund geben darfst: Er stimmt zu du gibst dem Hund das Leckerli streichelts ihn kurz und läufst im schnellen Schritte deinen Blättern hinterher. Du greifst die Blätter kurz bevor sie über den Fluss davon fliegen.
+
+* Laufe [[zurück->Rechts]] in die andere Richtung um die restlichen Blätter einzusammeln.
+
+* Gehe [[nach Hause]] du hast alle Bilder eingesammelt
+
+
+:: Wegrennen {"position": "425,675", "size": "100,100"}
+Du rennst los bevor der Hundebesitzer die Polizei rufen kann du hörst ihn hinter dir Schimpfen. Deine Blätter fliegen vor dir über den Gehweg an einer Brücke vorbei auf das Ufer eines Flusses zu du streckts deine arme aus um die Blätter zu fangen before sie über den Fluss fliegen. Du schaffst es die Blätter zu fangen.
+
+* Mach einen [[Freudensprung]]
+
+* [[kehre um]] und gehe mit den Blätter
+
+
+:: Diskutieren {"position": "550,675", "size": "100,100"}
+Du Diskutierst Laut mit dem Hundebesitzer der seien Hund jetzt fest and der Leine hat. Die Diskussion wird immer lauter und lauter bis zwei Polizisten dazu treten. Der erste Polizist ist ein etwas kleinerer Mann mit einem Donut in der Hand, neben ihm steht eine große muskulöse Polizistin.
+
+<img src="polizei.jpg" width="30%">
+
+* [[Entschuldige dich]] beim Hundebesitzer
+
+* [[Schlage]] den kleinen Polizisten und versuche wegzurennen
+
+
+:: Freudensprung {"position": "425,800", "size": "100,100"}
+Du springst mit einem lauten Freudesschrei in die Luft die Blätter fest in deiner Hand. Als du wieder auf den Boden aufkommst landest du auf einem unebenen Stein und verlierst dein Gleichgewicht. Du versuchst verzweifelt halt zu finden aber du bist nicht erfolgreich und du [[fällst->festgenommen]] in den Kalten fluss.
+
+
+:: kehre um {"position": "550,800", "size": "100,100"}
+Du kehrst um. Als du an der Staße vorbei kommst steht der Hundebesitzer mit zwei Polizisten am Straßenrand. Der erste Polizist ist ein etwas kleinerer Mann mit einem Donut in der Hand, neben ihm steht eine große muskulöse Polizistin. Bevor du weglaufen kannst haben die dich schon entdeckt.
+
+* [[Entschuldige dich]] beim Hundebesitzer
+
+* [[Schlage]] den kleinen Polizisten und versuche wegzurennen
+
+
+:: Entschuldige dich {"position": "675,800", "size": "100,100"}
+Du entschuldigst dich vielmals beim Hundebesitzer und erzählst ihm von dem Blätter disaster er ist sehr verständlich und lässt dich nohmal davon nachdem du dem HUnd Leckerlis aus deiner Tasche gegeben hast.
+
+* Du läufst weiter um die restlichen Blätter [[einzusammeln->nach Hause]] 
+
+* Du gehst [[nach Hause->nach Hause]]
+
+
+:: Schlage {"position": "700,675", "size": "100,100"}
+Ohne nachzudenken schlägst du den kleinen Polizisten, er stolpert zurück und lässt seien Donut fallen. Du drehst dich um wegzurennen aber wirst von der Polizistin gepackt und schwungvoll auf den boden geworfen. Du wirst [[festgenommen]] und von den polizisten mitgenommen.
+
+
+:: festgenommen {"position": "550,925", "size": "100,100"}
+Du befindest dich an einem Ort zwischen Zeit und Raum. Du guckst dich um komplette weiße leere bis auf eine Frau die in einem grünen Anzug steht und dich anguckt.
+"Hallo John ich bin Karma. Du hast mich Enttäuscht John so viele möglichkeiten um gut zu sein und du warst zu ungeduldig. Du bekommsz jetzt noch eine letzte chance." Die Frau in Grün sagt
+
+* Von vorne wieder [[Anfangen->Start]]
+
+* Hier [[Enden]]
+
+
+:: Enden {"position": "550,1050", "size": "100,100"}
+Sie befinden sich am Ende dieser Geschichte Sie haben ein schlechtes Karma und werden als Wurm [[wiedergeboren->Start]].
+
+
+:: nach Hause {"position": "675,925", "size": "100,100"}
+Du befindest dich an einem Ort zwischen Zeit und Raum. Du guckst dich um komplette weiße leere bis auf eine Frau die in einem grünen Anzug steht und dich anguckt.
+"Hallo John ich bin Karma. Ich bin Stolz auf dich du hast sehr gute Entscheidungen Getroffen." Sagt die Frau mit dem grünen Anzug.
+[[Ende]]
+
+
+:: Ende {"position": "675,1050", "size": "100,100"}
+Sie befinden sich am Ende dieser Geschichte Sie haben ein gutes Karma und werden als ein Kind in einer wohlhabenden Familie[[wiedergeboren->Start]].

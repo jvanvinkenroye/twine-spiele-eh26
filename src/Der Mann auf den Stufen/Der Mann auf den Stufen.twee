@@ -1,0 +1,140 @@
+:: StoryTitle
+Der Mann auf den Stufen
+
+:: StoryData
+{
+  "ifid": "9AF328C3-EDCE-4C8F-8FC7-6D784757BB82",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+:: Start {"position": "600,300", "size": "100,100"}
+<img src="Treppe.jpg" width="400px">
+Du bist ein Ermittler bei der Polizei deiner Heimatstadt. Eine Leiche wurde auf den Stufen deiner Station zurückgelassen. Sie sieht genauso aus wie du.
+
+* [[Du schaust dir die Leiche an]].
+* [[Du rufst einen Kollegen von der Spurensicherung]].
+* [[Du kündigst und rennst weg]].
+
+
+:: Du kündigst und rennst weg {"position": "600,500", "size": "100,100"}
+Während du wegrennst, fällst du hin und stürzt auf deinen Kopf. 
+Alles wird schwarz. 
+<img src="Dunkel.jpg" width="400px">
+[[weiter->Start]]
+
+
+:: Du rufst einen Kollegen von der Spurensicherung {"position": "900,500", "size": "100,100"}
+<img src="Anruf.jpg" width="400px">
+Dein Kollege kommt an und sieht die Ähnlichkeit zwischen dir und der Leiche.
+Beim genaueren Inspizieren fallen euch zwei Löcher in der Brust der toten Person auf. 
+
+[[weiter ->Storytime]]
+
+
+:: Du schaust dir die Leiche an {"position": "300,500", "size": "100,100"}
+Beim genaueren betrachten der Leiche erkennst du, das sie genauso aussieht wie du. 
+Sie liegt auf den Treppen zum Revier auf offener Straße, was machst du?
+
+* [[Du nimmst die Leiche und bringst sie rein]]
+* [[Du rufst einen Kollegen von der Spurensicherung]]
+
+
+:: Du nimmst die Leiche und bringst sie rein {"position": "600,700", "size": "100,100"}
+Während du die Leiche rein bringst, wirst du von einem Mitarbeiter erwischt. 
+Da du die Leiche in eine Plastiktüte gepackt hast, sieht es so aus als würdest du einen von dir begangenen Mord verschleiern wollen.
+
+* [[Du erklärst dem Mitarbeiter was passiert ist]] 
+* [[Du lässt die Leiche fallen und rennst weg ->Du kündigst und rennst weg]]
+
+
+:: Du erklärst dem Mitarbeiter was passiert ist {"position": "600,900", "size": "100,100"}
+Der Mitarbeiter glaubt dir nicht.
+
+[[weiter ->Start]]
+
+
+:: Storytime {"position": "900,700", "size": "100,100"}
+In dem Moment wird dir klar, dass du vor 5 Jahren mit einem Kollegen in eine Schießerei geraten bist und er an der selben Stelle zwei Löcher in der Brust hatte. 
+
+* [[Du erzählst deinem Kollegen was passiert ]]
+* [[Du schweigst]]
+
+
+:: Du erzählst deinem Kollegen was passiert {"position": "1000,900", "size": "100,100"}
+Du erzählst deinem Kollegen, dass du vor 5 Jahren bei einer geheimen Organisation gearbeitet hast. Mit deinem damaligen Kollegen bist du zu einer Schießerei gerufen worden. 
+Er hat sich vor dich geworfen und wurde mit zwei Schüssen in die Brust getötet.
+[[weiter->Obuktion]]
+<img src="Tatort.jpg" width="400px">
+
+
+:: Du schweigst {"position": "800,900", "size": "100,100"}
+Dein Kollege möchte dir nicht helfen, da die Leiche dir so ähnlich sieht
+
+* [[weiter->Start]]
+
+
+:: Obuktion {"position": "1000,1025", "size": "100,100"}
+Du hast das Interesse von deinem Kollegen bei der Spurensuche geweckt und er hilft dir die Leiche zu inspizieren.
+
+* [[Ihr schneidet die Leiche auf]]
+* [[Ihr sucht oberflächlich nach Hinweisen]]
+
+
+:: Ihr schneidet die Leiche auf {"position": "900,1200", "size": "100,100"}
+Ihr findet einen Zettel mit einer Notiz, dass du zum Wald fahren sollst.
+
+* [[du fährst zum Wald]]
+* [[du suchst nach weiteren Hinweisen->Ihr sucht oberflächlich nach Hinweisen]]
+
+
+:: Ihr sucht oberflächlich nach Hinweisen {"position": "1100,1200", "size": "100,100"}
+Du findest ein Haar, was da nicht hingehört und untersuchst es. 
+Als du es auf DNA prüfst, gibt es einen Treffer in der Datenbank. 
+
+Es ist von deinem alten Kollegen. 
+
+* [[du hast panische Angst und rennst weg->Du kündigst und rennst weg]] 
+* [[Ihr schneidet die Leiche auf]] 
+* [[ihr wisst wo ihr hin müsse->du fährst zum Wald]]
+
+
+:: du fährst zum Wald {"position": "800,1400", "size": "100,100"}
+Als ihr am Wald angekommen seid, steigt ihr aus dem Auto.
+Du hörst einen lauten Schuss und siehst wie dein Kollege zu Boden geht.
+
+* [[Du schreist und rennst weg->Du kündigst und rennst weg]] 
+* [[weiter]]
+
+
+:: weiter {"position": "1000,1500", "size": "100,100"}
+Du wachst schweißgebaded und schreiend auf deiner Couch auf und siehst, das Netlix mit der Serie Stranger Things im Hintergrund läuft. 
+
+* [[du schaltest den Fernseher aus]]
+* [[du gehst wieder schlafen]]
+
+
+:: du schaltest den Fernseher aus {"position": "800,1600", "size": "100,100"}
+Der Bildschirm wird schwarz und du siehst eine Gestalt in der Spiegelung 
+
+* [[weiter->Überraschung]]
+<img src="Ende.jpg" width="400px">
+
+
+:: du gehst wieder schlafen {"position": "1200,1600", "size": "100,100"}
+Du bist gerade am einschlafen, als du in der Spiegelung vom Fernseher eine Gestalt wahrnimmst.
+
+[[weiter->Überraschung]] 
+<img src="Ende.jpg" width="400px">
+
+
+:: Überraschung {"position": "1000,1700", "size": "100,100"}
+Dein Puls steigt und deine Hände werden schwitzig. Als du dich umdrehst, siehst du deine Mutter, wie sie mit einem Geburtstagskuchen dich überraschen will.
+
+Du murmelst vor dich hin: Was ein Traum 
+
+Ende
+
+wenn du nochmal Spielen willst drücke auf [[Start]]

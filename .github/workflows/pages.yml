@@ -1,0 +1,61 @@
+name: Spiele bauen und auf GitHub Pages veroeffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "storyformats/**"
+      - "tools/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Nur ein Deployment gleichzeitig, laufende nicht abbrechen.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  TWEEGO_VERSION: "2.1.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: tweego installieren
+        run: |
+          curl -fsSL -o tweego.zip \
+            "https://github.com/tmedwards/tweego/releases/download/v${TWEEGO_VERSION}/tweego-${TWEEGO_VERSION}-linux-x64.zip"
+          mkdir -p "$HOME/tweego"
+          unzip -q tweego.zip -d "$HOME/tweego"
+          chmod +x "$HOME/tweego/tweego"
+          echo "$HOME/tweego" >> "$GITHUB_PATH"
+
+      - name: Spiele bauen
+        run: tools/build-all.sh -c
+
+      - name: Startseite erzeugen
+        run: python3 tools/make-index.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

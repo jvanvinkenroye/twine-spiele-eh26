@@ -1,0 +1,401 @@
+:: StoryTitle
+Wald
+
+:: StoryData
+{
+  "ifid": "C8C2C4A6-3F0B-4146-8740-8FCD30EC4088",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1.0
+}
+
+:: Start {"position": "250,200", "size": "100,100"}
+Du bist ein Fotograf mit demm Künstlername PicureMagic. Im Moment bearbeitest du die Fotos von der letzten Hochzeit, auf der du gearbeitet hast. Dein Handy gibt den Signalton für eine neue Email von sich. Du schaust auf dein Handy und siehst eine neue Buchungsanfrage.
+"Hallo PictureMagic, haben Sie am ersten Wochenende nächsten Monat um 10 Uhr morgens Zeit meine Hochzeit zu fotografieren? Die Hochzeit findet an folgenden Koordinaten statt: 47°04'34.8"N 115°47'50.3"W . Ihre Vergütung sind 4000$. Mit freundlichen Grüßen, Franz Herbert"
+
+Was machst du?
+* der Anfrage [[zusagen]]
+* auf die Email antworten und nach mehr [[Details]] fragen
+
+
+:: zusagen {"position": "250,375", "size": "100,100"}
+Du sagst der Anfrage zu. Ein neuer Monat beginnt, du packst dein kameraequipment und begibst dich am ersten Wocheende zu den genannten [[Koordinaten]].
+
+
+:: Details {"position": "400,375", "size": "100,100"}
+Auf deine Nachfrage nach mehr Details kommt folgende Antwort:
+"Ich kann Ihnen leider nicht mehr Details nennen, aber 1000$ mehr als Lohn anbieten"
+Da du selbstständig bist und Geld brauchst, sagst du trotz der gerinnen Informationen [[zu ->zusagen]] .
+
+
+:: Koordinaten {"position": "250,500", "size": "100,100"}
+<img src="huettewald.jpg" width="30%">
+
+Du fährst über einen bewachsenen Waldweg und kommst vor einer verlassenen maroden Hütte zum stehen. Es ist niemand außer dir zu sehen. Du siehst auch kein anderes Auto.
+
+Was machst du?
+* dein Auto neu starten und [[umkehren]]
+* [[aussteigen]] und dich umschauen
+
+
+:: aussteigen {"position": "250,625", "size": "100,100"}
+Der Wald um dich ist ziemlich dicht, aber die Hütte vor dir steht auf einer friedlich aussehenden Lichtung. Du hörst nur Naturgeräusche.
+
+Wie gehst du weiter vor?
+* die Hütte [[umrunden]] und von außen anschauen
+* versuchen die [[Hütte zu betreten]]
+
+
+:: umkehren {"position": "400,600", "size": "100,100"}
+Du drehst den Autoschlüssel im Zündschloss. Dein Motor rattert, aber startet nicht. Nach mehreren Versuchen beschließt du [[auszusteigen ->aussteigen]]
+
+
+:: Hütte zu betreten {"position": "250,750", "size": "100,100"}
+Du gehst auf die Tür zu und drückst die Klinke der Tür herunter. Die Tür springt knarzend auf und du trittst ein. Du stehst in einem großen Raum von dem nur zwei Türen weggehen. Durch eine davon bist du gerade hinein getreten. Die andere Tür ist zu. Das Sonnenlicht, welches durch die Fenster kommt erhellt den Raum und du siehst die Staubpartikel in der Luft. Hier wurde wohl lange nicht geputzt. In dem Raum ist eine kleine Kochnische, ein Bett und ein Tisch mit zwei Stühlen.
+
+Was machst du als nächstes?
+* die andere [[Tür öffnen]] und in den Raum sehen
+* du gehst aus der Hütte raus und [[schaust dir die Hütte von außen an ->umrunden]]
+
+
+:: umrunden {"position": "400,750", "size": "100,100"}
+<img src="motorrad.jpg" width="30%">
+
+Die Hütte sieht von außen alt aus und das Holz ist schon marode. Du umrundest langsam das Haus. Auf der linken Seite ist Holz gestapelt, also alles noch ganz normal. Als du auf der Rückseite ankommst siehst du ein rotes Motorrad. Also ist doch jemand hier. Als du deine hand auf das Gehäuse legst, fällt dir auf dass der Motor noch warm ist. Also steht es noch nicht lange hier. Unsicheŕ setzt du deine Umrundung fort und versuchst danach [[die Hütte zu betreten ->Hütte zu betreten]].
+
+
+:: Tür öffnen {"position": "250,875", "size": "100,100"}
+Lansam öffnest du die Tür. Dahinter verbirgt sich ein kleines Bad. Dort ist eine Toilette und eine Gießkanne, wo man sich wohl die Hände waschen oder duschen kann. Um das Wasser aufzufangen steht in dem Bad eine große Wanne. Als du näher an sie herangehst erkennst du, dass in der Wanne ein blutüberstömter Mensch liegt. 
+
+Wie reagierst du darauf? 
+* du [[rennst raus]]
+* du willst die [[Polizei anrufen]]
+* du behälst einen klaren Kopf und [[fragst dich was passiert ist]]
+
+
+:: Polizei anrufen {"position": "250,1000", "size": "100,100"}
+Schnell kramst du dein Handy aus deiner Hosentasche und wählst 110, aber der Anruf geht nicht durch. Anscheinend bist du zu abhelegen. 
+[[Was machst du nun? ->Tür öffnen]]
+
+
+:: rennst raus {"position": "375,1000", "size": "100,100"}
+So schnell du kannst rennst du heraus und zu deinen Auto. Als du im Auto angekommen bist, versuchst du dein [[Auto zu starten]].
+
+
+:: fragst dich was passiert ist {"position": "125,1000", "size": "100,100"}
+Bei genauerem Blick erkennst du, dass die Leiche männlich ist und wahrscheinlich umgebracht wurde. Geistesgegenwärtig machst du ein [[Foto]] der Auffindesituation. 
+
+Was machst du als nächstes?
+* Das ganze ist dir ein bissche unheimlich geworden und [[du rennst raus ->rennst raus]].
+* Du siehst dich in dem [[Hauptraum]] der Hütte um.
+
+
+:: Auto zu starten {"position": "375,1125", "size": "100,100"}
+Nach mehrern Versuchen klappt es endlich. Schnell wendest du auf der Lichtung und fährst den Waldweg zurück. Auf einmal kommt dir [[ein Auto entgegen]].
+
+
+:: ein Auto entgegen {"position": "675,1175", "size": "100,100"}
+Als es näher kommt, erkennst du, dass es die Polizei ist. Du bremst ab und steigst aus, was dir die Beamten gleich tuen. Aufgeregt erzählst du von dem was du gesehen hast. Die Beamten beschließen Verstärkung zu rufen. Als diese eintrifft gehen ein paar der Beamten in Richtung Hütte und andere nehmen dich mit auf das nächste [[Polizeirevier]].
+
+
+:: Polizeirevier {"position": "875,1300", "size": "100,100"}
+<img src="verhoerraum.jpg" width="30%">
+
+Auf dem Revier angekommen, wirst du in einen Verhörraum geführt, wo du mehrere Stunden warten musst. Als dann endlich zwei Polizisten den Raum betreten, teilen sie dir mit, dass sie dich für verdächtig halten.
+Du erfährst, dass der Tote ein Journalist namens Franz Herbert ist. 
+"Kennen Sie Franz Herbert?"
+* [["Ja, ich hab eine komische Buchungsanfrage von ihm erhalten"]]
+* [["Nein, ich kenne ihn nicht"]]
+
+
+:: "Nein, ich kenne ihn nicht" {"position": "1000,1425", "size": "100,100"}
+"Nein, ich kenne ihn nicht"
+"Wir haben auf Ihrem Handy allerdings eine Email von Ihm gefunden"
+
+* [[verleugnen]]
+* [[bestätigen ->"Ja, ich hab eine komische Buchungsanfrage von ihm erhalten"]]
+
+
+:: "Ja, ich hab eine komische Buchungsanfrage von ihm erhalten" {"position": "750,1425", "size": "100,100"}
+"Ja, ich hab eine komische Buchungsanfrage von ihm erhalten"
+"Warum haben Sie sich auf den Termin eingelassen"
+
+* [["Ich bin neugierig"]]
+* [["Ich hab das Geld gebracht"]]
+
+
+:: verleugnen {"position": "1000,1600", "size": "100,100"}
+<img src="gefaengnis.jpg" width="50%">
+
+Die Polizisten glauben dir kein Wort und zweifeln alle deine späteren Aussagen an. Du landest in Untersuchungshaft. Da du monatelang der einzige Verdächtige bleibst, wirst du ein Jahr nach der Tat schuldig gesprochen und zu mindestens 15 Jahren Freiheitstrafe verurteilt.
+
+[[''Ende'' ->Ende]]
+
+
+:: "Ich hab das Geld gebracht" {"position": "725,1575", "size": "100,100"}
+Die Polizisten zweifeln zwar an deinen Aussagen, können dir aber nichts nachweisen und du warst immer ehrlich zu ihnen.
+Du wirst freigelassen, aber deine Foto-Business geht insolvent, da die Gesellschaft dir nicht glaubt und dich als gierig ansieht.
+
+[['' Ende''->Ende]]
+
+
+:: "Ich bin neugierig" {"position": "850,1600", "size": "100,100"}
+Die Polizisten zweifeln zwar an deinen Aussagen, können dir aber nichts nachweisen und du warst immer ehrlich zu ihnen.
+Du wirst allerdings auf eine interne Watchlist der Polizei gesetzt, aufgrund deiner Neugier. 
+Wirst du später eines Verbrechen verdächtigt oder wirst du später die Polizei unterstützen? Das kann nur die Zeit zeigen.
+
+[[''Ende''->Ende]]
+
+
+:: Ende {"position": "900,1775", "size": "100,100"}
+Das Spiel ist vorbei, willst du von vorne spielen?
+
+[[''Start'' ->Start]]
+
+
+:: Foto {"position": "100,1125", "size": "100,100"}
+Du fotografierst die komplette Szene im Bad und der Leiche. Du machst Nah- und Weitwinkelaufnahmen.
+
+[[zurück ->fragst dich was passiert ist]]
+
+
+:: Hauptraum {"position": "250,1125", "size": "100,100"}
+In dem Hauptraum ist alles voller Staub und nur erhellt durch das Sonnenlicht von außen. Es gibt eine kleine Kochnische, ein Bett und einen Tisch mit zwei Stühlen. Diese Möbel sehen benutzt aus. 
+
+Was schaust du dir an?
+* [[Kochnische]]
+* [[Bett]]
+* [[Tisch]]
+
+
+:: Tisch {"position": "50,1350", "size": "100,100"}
+<img src="sonnenblumen.jpg" width="30%">
+
+Der Tisch steht in einer Ecke des Raums. Er sieht unscheinbar aus. Auf dem Tisch steht eine Vase mit vertrockneten Sonnenblumen Als du dich auf den Stuhl setzt, wirbelt Staub in die Luft. Du entdeckst eine [[Schublade]] unter der Tischplatte.
+
+
+:: Bett {"position": "425,1350", "size": "100,100"}
+Das Bett steht auch in einer Ecke der Hütte vor einem Fenster. Über dem Bettzeug ist noch eine Tagesdecke. 
+
+Was machst du?
+* Du schaust [[unter das Bett]].
+* Du schaust unter die [[Matratze]].
+* Du schaust unter die [[Tagesdecke]].
+
+* Du hast [[genug Gegenstände]] gefunden und gehst zum Tisch. (alles untersucht haben)
+
+
+:: Kochnische {"position": "175,1350", "size": "100,100"}
+<img src="usb.jpg" width="30%">
+
+In der Kochnische findest du Konserven in den Schränke. Die meisten Schränke sind leer. Du findest nichts spannendes bis du hinter die Konserven tastest. Dort findest du einen silbernen USB-Stick. Leider hast keinen Laptop oder ähnliches dabei.
+
+[[Was schaust du dir als nächstes an? ->Hauptraum]]
+
+
+:: Tagesdecke {"position": "425,1500", "size": "100,100"}
+<img src="schlafanzug.jpg" width="30%">
+
+Unter der Tagesdecke findest du einen schwarzen Schlafanzug auf den in weiß die Initialien AM eingestickt sind.
+
+Was schaust du dir als nächstes an?
+* Du gehst [[zurück in den Hauptraum ->Hauptraum]].
+* Du schaust unter die [[Matratze]].
+* Du schaust [[unter das Bett]].
+
+
+:: Matratze {"position": "300,1500", "size": "100,100"}
+<img src="notizbuch.jpg" width="30%">
+
+Du hebst die Matratze hoch und findest dort ein Notizbuch. 
+
+Was schaust du dir als nächstes an?
+* Du gehst [[zurück in den Hauptraum ->Hauptraum]].
+* Du schaust unter die [[Tagesdecke]]
+* Du schaust [[unter das Bett]].
+
+
+:: unter das Bett {"position": "550,1500", "size": "100,100"}
+<img src="goldenerring.jpg" width="30%">
+
+Als du unter das Bett schaust erkennst du nur Staub. Du hohlst dein Handy heraus und leuchtest damit unter das Bett. An der Wand glänzt dir ein goldener Ring entgegen. Widerwillig krabbelst du unters Bett und hohlst den Ring heraus. Als du ihn dir genauer anschaust erkennst du dass die Buchstaben EJ eingeritzt sind.
+
+Was schaust du dir als nächstes an?
+* Du gehst [[zurück in den Hauptraum ->Hauptraum]].
+* Du schaust unter die [[Matratze]].
+* Du schaust unter die [[Tagesdecke]].
+
+
+:: genug Gegenstände {"position": "425,1625", "size": "100,100"}
+<img src="passwort.jpg" width="50%">
+
+Auf dem Tisch liegen nun ein goldener Ring, ein silberner USB Stick, ein Schlafanzug, ein Notizbuch und die vertrocknete Sonnenblume. Als du den Laptop anschaltet blinkt das Feld mit "bitte Paaswort eingeben, du hast 3 Versuche"
+
+Was gibst du ein?
+
+0. [[FranzHerbert]]
+0. [[123456789]]
+0. [[who is my murder]]
+0. [[PictureMagic]]
+
+
+:: Schublade {"position": "50,1500", "size": "100,100"}
+In der Schublade liegt ein Laptop und ein Geldbeutel. In dem Geldbeutel findest du einen Ausweis: Franz Herbert, 45 Jahre alt, Journalist
+Das ist der Mann der dir die Email geschickt hat. Warum hat er dich hier her geordert? Sollst du etwa seinen Mord auflösen?
+
+[[Was schaust du dir als nächstes an? ->Hauptraum]]
+
+
+:: FranzHerbert {"position": "425,1750", "size": "100,100"}
+Falsches Passwort! Du hast noch 2 Versuche.
+
+Was gibst du als nächstes ein?
+
+0. [[123456789->123456789.2]]
+0. [[PictureMagic]]
+0. [[who is my murder->who is my murder.2]]
+
+
+:: 123456789 {"position": "550,1750", "size": "100,100"}
+Falsches Passwort! Du hast noch 2 Versuche.
+
+Was gibst du als nächstes ein?
+
+0. [[FranzHerbert->FranzHerbert.2]]
+0. [[PictureMagic]]
+0. [[who is my murder->who is my murder.2]]
+
+
+:: who is my murder {"position": "300,1750", "size": "100,100"}
+Falsches Passwort! Du hast noch 2 Versuche.
+
+Was gibst du als nächstes ein?
+
+0. [[FranzHerbert->FranzHerbert.2]]
+0. [[123456789->123456789.2]]
+0. [[PictureMagic]]
+
+
+:: PictureMagic {"position": "425,2200", "size": "100,100"}
+Glückwunsch! Du hast das richtige Passwort eingegeben.
+
+Du steckst den USB Stick in den Laptop ein. Auf ihm befindet sich nur eine Textdatei:
+
+Hallo PictureMagic,
+du hast also verstanden warum du hier bist. Ich weiß ich werde sterben und nur du kannst meinen Mord aufklären. Denke weise drüber nach und schau dir alle Beweise an. In dem [[Notizbuch]] findest du Steckbriefe von Menschen, gegen die ich gerade recherchiere.
+LG Franz Herbert
+
+
+:: 123456789.2 {"position": "300,1900", "size": "100,100"}
+Falsches Passwort! Du hast noch einen Versuch.
+
+Was gibst du als nächstes ein?
+
+0. [[FranzHerbert->Ende Passwort]]
+0. [[PictureMagic]]
+0. [[who is my murder->Ende Passwort]]
+
+
+:: FranzHerbert.2 {"position": "550,1900", "size": "100,100"}
+Falsches Passwort! Du hast noch einen Versuch.
+
+Was gibst du als nächstes ein?
+
+0. [[123456789->Ende Passwort]]
+0. [[PictureMagic]]
+0. [[who is my murder->Ende Passwort]]
+
+
+:: who is my murder.2 {"position": "425,1900", "size": "100,100"}
+Falsches Passwort! Du hast noch einen Versuch.
+
+Was gibst du als nächstes ein?
+
+0. [[FranzHerbert->Ende Passwort]]
+0. [[123456789->Ende Passwort]]
+0. [[PictureMagic]]
+
+
+:: Ende Passwort {"position": "700,2075", "size": "100,100"}
+Falsches Passwort
+
+[[''Ende''->Ende]]
+
+
+:: Notizbuch {"position": "425,2350", "size": "100,100"}
+In dem Notizbuch sind nur wenige Seiten beschrieben und du findest 3 Steckbriefe. Schau dir alle gut an.
+
+* [[Andreas Martin]]
+* [[Sabine Adelheid]]
+* [[Eberhard Jakob]]
+
+
+:: Eberhard Jakob {"position": "400,2500", "size": "100,100"}
+* Name: Eberhard Jakob
+* Alter: 36
+* Motiv: ist Goldschmied und gibt Kunden keine echten Schmuckstücke aus Gold
+* Charakter: überlegt, planend 
+
+Was machst du als nächstes?
+* [[Andreas Martin]] anschauen
+* [[Sabine Adelheid]] anschauen
+* [[Beweise anschauen]]
+* [[Das Rätsel lösen]]
+
+
+:: Sabine Adelheid {"position": "600,2500", "size": "100,100"}
+* Name: Sabine Adelheid
+* Alter: 34
+* Motiv: Franz Herbert hat ein zu hässliches Foto von ihr gemacht
+* Charakter: aggressiv, impulsiv, ist vorbestraft, Signatur sind Sonnenblumen
+
+Was machst du als nächstes?
+* [[Eberhard Jakob]] anschauen
+* [[Andreas Martin]] anschauen
+* [[Beweise anschauen]]
+* [[Das Rätsel lösen]]
+
+
+:: Andreas Martin {"position": "200,2500", "size": "100,100"}
+* Name: Andreas Martin
+* Alter: 29
+* Motiv: ist Bürgermeister Kandidat aber eigentlich Hardcore Rocker und Motorrad Club
+* Charakter: kann Motorradfahren, unbarmherzig
+
+Was machst du als nächstes?
+* [[Eberhard Jakob]] anschauen
+* [[Sabine Adelheid]] anschauen
+* [[Beweise anschauen]]
+* [[Das Rätsel lösen]]
+
+
+:: Beweise anschauen {"position": "275,2675", "size": "100,100"}
+Beweisliste
+
+* Motorrad hinterm Haus
+* Sonnenblumen auf dem Tisch
+* goldener Ring mit Initialinen EJ
+* Schlafanzug mit Initialien AM
+
+Was willst du machen?
+* [[Das Rätsel lösen]] 
+* [[Notizbuch]]
+
+
+:: Das Rätsel lösen {"position": "475,2700", "size": "100,100"}
+Wer glaubst du ist der Mörder?
+* [[Sabine Adelheid->Ende3]]
+* [[Andreas Martin->Ende3]]
+* [[Eberhard Jackob->Ende4]]
+
+
+:: Ende4 {"position": "575,2825", "size": "100,100"}
+Richtig!
+Eberhard Jackob hat viele Beweise gepflanzt um dich in die Irre zu führen, aber der Ring der ihm unters Bett gerollt ist hat ihn verraten. Er hätte wohl besser aufpassen müssen als er dem Schlafanzug versteckt hat.
+
+[[''Ende''->Ende]]
+
+
+:: Ende3 {"position": "700,2825", "size": "100,100"}
+Du hast die Beweise falsch interpretiert und [[rennst aus der Hütte->rennst raus]]

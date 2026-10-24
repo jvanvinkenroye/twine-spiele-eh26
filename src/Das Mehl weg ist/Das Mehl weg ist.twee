@@ -1,0 +1,120 @@
+:: StoryTitle
+das Mehl weg ist
+
+:: StoryData
+{
+  "ifid": "02A7E96C-F2D1-4014-BDE6-F2FA8138947B",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1.0
+}
+
+:: Start {"position": "700,250", "size": "100,100"}
+Es ist Samstagmittag Agent Kässpätzle und Topspion Pfannkuchen haben ein großes Problem.  Großen Hunger, zum Glück haben sie eine Idee. Sie laden all ihre Freunde ein und machen Pfankuchen und Kässpätzle. Pfannkuchen zur Vorspeise und dann Kässpätzle mit Tomatensalat danach und alle sind glücklich und zufrieden. Das ist die Idee. Aber was ist das Agent Kässpätzle und Topspion Pfannkuchen öffnen den Schrank und... kein Mehl ist drin. Jetzt haben sie zwei Optionen. 
+* [[Mehl]] suchen gehen 
+* Plan [[verwerfen]]
+ <img src ="pfannkuchen.avif" width="10%"> <img src ="spaetzle.jpg" width="30%">
+
+
+:: Mehl {"position": "825,350", "size": "100,100"}
+Sie haben zwei Opitionen wo sie das Mehl finden können, gehen sie in den ... 
+* [[Keller]] 
+* [[Vorratsraum]]
+<img src ="keller.avif " width="10%"> <img src ="speisekammer.avif " width="10%">
+
+
+:: verwerfen {"position": "700,375", "size": "100,100"}
+alle sind traurig und gehen nach Hause
+
+
+:: Keller {"position": "750,525", "size": "100,100"}
+ Topspion Pfankkuchen und Agent Kässpätzle untersuchen alle Schränke und Schubladen. Hier ist kein Mehl. Du kannst entscheiden, was die beiden nun machen sollen.  
+ * der Topspion und der Agent beschließen weiter zu suchen und gehen in den [[Vorratsraum]]
+ * nicht weiter suchen und gehen nach [[Hause ->verwerfen]]
+
+
+:: Vorratsraum {"position": "950,500", "size": "100,100"}
+Juhu, im Vorratsraum ist Mehl, Käspätzle und Pfannkuchen führen voller Freude einen Freundentanz auf. Sie gehen zurück in die [[Küche]]
+
+
+:: Küche {"position": "700,650", "size": "100,100"}
+Oh nein.... :( Die beiden stellen fest es sind Motten im Mehl damit können sie nicht arbeiten. Was machen sie denn jetzt? Also die beiden überlegen ein bissle und dann plötzlich haben sie ein paar vielleicht sinnvolle Ideen, aber vielleicht erzählen sie dir einfach persönlich davon 
+* [[Agent Kässpätzles Idee]]
+* [[Topspion Pfannkuchens Idee]]
+* oh nein die beiden können sich nicht einigen, sie [[verwerfen]] ihren Plan
+* [[sie fragen dich]]
+
+
+:: Topspion Pfannkuchens Idee {"position": "725,775", "size": "100,100"}
+Einer könnte ja einkaufen gehen und noch etwas Mehl kaufen 
+* die beiden gehen einkaufene. Sie gehen  [[selber]]. 
+* ein Freund geht für die beiden. Willst du ihn [[fragen]] ?
+
+
+:: Agent Kässpätzles Idee {"position": "1125,750", "size": "100,100"}
+* Sie kochen einfach [[nur Pfannkuchen oder nur Kässpätzle -> nur eins kochen]] 
+* oder sie laden ihre restlichen Freunde wieder aus dann reicht es nämlich auch für die [[beiden -> Freunde ausladen]]
+
+
+:: nur eins kochen {"position": "1100,875", "size": "100,100"}
+Die Beiden kochen nur Kässpätzle. Aber dann fällt ihn noch etwas ein. Das wird wahrscheinlich nicht reichen das alle satt werden. 
+* die beiden [[fragen]] ob noch jemand Mehl hat 
+* die beiden kochen trotzdem nur eins und alle haben [[Hunger]]
+* sie beiden [[verwerfen]] ihren Plan
+
+
+:: Freunde ausladen {"position": "450,775", "size": "100,100"}
+(confirm:"Bist du dir sicher?") 
+sie laden ihre Freunde aus und haben zu zweit eine  
+[[schöne Zeit]]
+
+
+:: fragen {"position": "1075,1000", "size": "100,100"}
+Ein Freund bringt Mehl mit und sie kochen zusammen 
+Alle werden satt und hatten eine [[schöne Zeit]]. 
+Sie freuen sich über den Mut gefragt zu haben. Eine Weisheit dazu erfährst du [[hier -> Mut]]
+
+
+:: Hunger {"position": "1200,1000", "size": "100,100"}
+sie haben eine schöne Zeit zusammen 
+* und alle essen danach noch was zu [[Hause ->schöne Zeit]]
+* [[verwerfen]] ihren Plan
+
+
+:: schöne Zeit {"position": "250,1250", "size": "100,100"}
+Ende [[Bilderliste]]
+
+
+:: Mut {"position": "1025,1200", "size": "100,100"}
+Mut tut gut. [[hier weiter ->schöne Zeit]] 
+<img src ="mut.avif " width="10%">
+
+
+:: selber {"position": "950,1075", "size": "100,100"}
+Die beiden gehen einkaufen. Im Tante Emma Laden. Udo will gerade die letzte Packung Mehl mitnehmen. 
+*  Sie laden ihn mit der letzten Packung Mehl ein. aber sie haben Angst dafür Dann klicke [[hier]] 
+*  Sie [[verwerfen]] ihren Plan doch noch
+
+
+:: hier {"position": "700,1075", "size": "100,100"}
+Udo ist stolz auf die beiden. Und nimmt ihre Einladung dankend an. Während dem Essen erzählt er ihnen noch etwas über Mut. Du kannst es auch [[erfahren-> Mut]]
+
+
+:: Bilderliste {"position": "250,1375", "size": "100,100"}
+Von Takeaway - Eigenes Werk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=42341726
+
+
+:: sie fragen dich {"position": "575,775", "size": "100,100"}
+ (set: $name to (prompt: "Was sollen sie kochen?", ""))
+ $name, vielen Dank für deine Idee, aber...
+ [[Weiter]]
+
+
+:: Pech gehabt {"position": "375,575", "size": "100,100"}
+R
+
+
+:: Weiter {"position": "700,900", "size": "100,100"}
+Pech gehabt. Das machen wir hier leider nicht
+[[Weiter->Küche]]

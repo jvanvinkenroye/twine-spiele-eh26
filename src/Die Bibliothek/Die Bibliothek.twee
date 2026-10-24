@@ -1,0 +1,140 @@
+:: StoryTitle
+Die Bibliothek
+
+:: StoryData
+{
+  "ifid": "E81DD068-1C4E-439F-AC84-947DDAE16423",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1.0
+}
+
+:: Untitled Passage {"position": "500,300", "size": "100,100"}
+Passage: Eingang
+
+Du wachst in einer alten, staubigen Bibliothek auf. 
+Die Tür ist verschlossen.
+Vor dir stehen ein großer Bücherschrank und ein alter Tisch.
+Du entdeckst eine Karte, ein Buch und eine schmale Treppe.
+
+Was möchtest du untersuchen?
+
+[[Die Karte ansehen->Karte]]
+
+[[Das Buch lesen->Buch]]
+
+[[Die Treppe hinaufgehen->Galerie]]
+
+
+:: Karte {"position": "450,425", "size": "100,100"}
+Passage: Karte
+
+Auf der vergilbten Karte steht eine geheimnisvolle Zahlenfolge: 2 – 4 – 1. 
+Daneben ist eine Schublade zu sehen.
+
+[[Zum Buch gehen->Buch]]
+
+[[Das Tastenfeld ausprobieren->Tastenfeld]]
+
+[[Zurück zum Eingang->Eingang]]
+
+
+:: Buch {"position": "575,425", "size": "100,100"}
+Passage: Buch
+
+Du schlägst das Buch auf. 
+Auf der ersten Seite des Buches steht: „Die zweite Seite zeigt den Anfang, die vierte den Weg und die erste das Ziel.“
+Was könnte das bedeuten?
+
+[[Zum Tastenfeld gehen->Tastenfeld]]
+
+[[Die Karte erneut ansehen->Karte]]
+
+
+:: Galerie {"position": "500,550", "size": "100,100"}
+Passage: Galerie
+
+Du gehst die Treppe hoch. 
+An der Wand hängt ein großes, altes Bild. 
+Dahinter scheint sich etwas zu verbergen.
+
+[[Das Bild untersuchen->Bild]]
+
+[[Zurück zum Eingang->Eingang]]
+
+
+:: Tastenfeld {"position": "250,550", "size": "100,100"}
+Passage: Tastenfeld
+
+Vor dir befindet sich ein Tastenfeld. 
+Welchen Code möchtest du eingeben?
+
+[[241 eingeben->CodeRichtig]]
+
+[[123 eingeben->CodeFalsch]]
+
+[[Zurück zum Eingang->Eingang]]
+
+
+:: Eingang {"position": "375,550", "size": "100,100"}
+Passage: Eingang
+
+Du wachst in einer alten, staubigen Bibliothek auf. 
+Die Tür ist verschlossen. 
+Vor dir stehen ein großer Bücherschrank und ein alter Tisch.
+Du entdeckst eine Karte, ein Buch und eine schmale Treppe.
+
+Was möchtest du untersuchen?
+
+[[Die Karte ansehen->Karte]]
+
+[[Das Buch lesen->Buch]]
+
+[[Die Treppe hinaufgehen->Galerie]]
+
+
+:: CodeRichtig {"position": "200,675", "size": "100,100"}
+Passage: CodeRichtig
+
+Ein leises Summen. 
+Die Schublade springt auf! Darin liegt ein silberner Schlüssel.
+
+Auf der Rückseite der Schublade entdeckst du eine Zeichnung von der Galerie. 
+Vielleicht findest du ja dort den nächsten Hinweis...
+
+[[Den Schlüssel nehmen und zur Galerie gehen->Galerie]]
+
+
+:: CodeFalsch {"position": "325,675", "size": "100,100"}
+Passage: CodeFalsch
+
+Ein lautes Klicken. Der Code ist falsch. Schau dir die Hinweise vielleicht noch einmal an...
+
+[[Die Karte ansehen->Karte]]
+
+[[Das Buch lesen->Buch]]
+
+[[Code erneut versuchen->Tastenfeld]]
+
+
+:: Bild {"position": "500,675", "size": "100,100"}
+Passage: Bild
+
+Du schiebst das Bild zur Seite.
+Dahinter erscheint eine versteckte Tür. 
+vielleicht hilft dir ja der Schlüssel...
+
+[[Die Tür aufschließen->Ende]]
+
+
+:: Ende {"position": "500,800", "size": "100,100"}
+Passage:Ende
+
+ein leises klicken.
+Die Tür öffnet sich.
+Du hast es geschafft!
+
+
+
+[[Eingang]]
